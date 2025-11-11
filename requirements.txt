@@ -1,0 +1,15 @@
+# Core packages
+pyspark==3.5.0
+
+# Optional but recommended for Delta Lake (better streaming sink)
+delta-spark==3.1.0
+
+# Data processing & visualization
+pandas==2.2.2
+matplotlib==3.8.0
+
+# For notebook visualization & interactive testing
+jupyterlab==4.0.5
+
+# Optional: pretty logging for debugging
+rich==13.7.0
